@@ -1,0 +1,109 @@
+body{
+    background-color:rgb(209, 209, 209);
+}
+
+.nav{
+    border: solid rgb(230, 99, 99);
+    border-width: .2px;
+    /* padding:bottom: 30px; */
+
+}
+
+.theme{
+    border: solid rgb(172, 167, 167);
+    border-width: .2px;
+    display:flex;
+    justify-content:center;
+    /* position:relative; */
+    float:left;
+    align-items:center;
+}
+
+.icons{
+    border: solid blue; 
+    align-items: right; 
+}
+
+.click{
+    border:solid grey;
+
+
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+    color: red;
+    /* height: 7px; */
+}
+
+.subTitle{
+    display:flex;
+    /* justify-content:center;
+    align-items:center; */
+
+}
+
+.main{
+padding-bottom:40px;
+
+}
+
+
+.menu{
+display:flex;
+justify-content:space-evenly;   
+float:center;
+color: blue;
+font-size: 20px;
+padding-top: 40px;
+padding-left: 100px;
+font-weight:bold;
+
+}
+
+.deals{
+display:flex;
+justify-content:center;
+background-color: rgb(112, 99, 126);
+}
+
+.special{
+    display:flex;
+    /* justify-content:center; */
+    /* align-items:center; */
+    height: 60vh;
+    /* width:100%; */
+    /* float:center; */
+
+
+}
+
+
+
+.happy{
+height:6vh;
+background-color:red;
+color:white;
+border-radius:5px;
+box-shadow:0px 0px 2px 2px rgb(0,0,0);
+cursor:pointer;
+}
+
+.footer{
+border:solid blue;
+border-radius: 10;
+height:100px;
+padding-top:10px;
+}
+
+.contact{
+display:flex;
+justify-content:space-evenly;
+float:right;
+padding-top: 15px;
+padding-right:100px;
+color:brown;
+font-size: 16px;
+font-weight: bold;
+}
